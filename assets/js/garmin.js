@@ -1,4 +1,4 @@
-var map = L.map('map').setView([37.75, -122.44], 10);
+var map = L.map('map').setView([37.62, -122.37], 10);
 
 
 // L.marker([51.5, -0.09]).addTo(map)
@@ -44,6 +44,18 @@ var locationEleven = omnivore.gpx('assets/data/activity_892803065.gpx').addTo(ma
 var locationTwelve = omnivore.gpx('assets/data/activity_892803073.gpx').addTo(map);
 
 var locationThirteen = omnivore.gpx('assets/data/activity_892803081.gpx').addTo(map);
+
+var locationFourteen = omnivore.gpx('assets/data/activity_893736148.gpx').addTo(map);
+
+var locationFifteen = omnivore.gpx('assets/data/activity_893736175.gpx').addTo(map);
+
+var locationSixteen = omnivore.gpx('assets/data/activity_893736197.gpx').addTo(map);
+
+var locationSeventeen = omnivore.gpx('assets/data/activity_893736208.gpx').addTo(map);
+
+var locationEighteen = omnivore.gpx('assets/data/activity_893736220.gpx').addTo(map);
+
+var locationNineteen = omnivore.gpx('assets/data/activity_893736236.gpx').addTo(map);
 
 
 
