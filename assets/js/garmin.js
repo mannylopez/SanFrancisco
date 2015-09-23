@@ -1,17 +1,5 @@
 var map = L.map('map').setView([37.62, -122.37], 10);
 
-
-// L.marker([51.5, -0.09]).addTo(map)
-//     .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-//     .openPopup();
-// var Stamen_Toner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
-//   attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-//   subdomains: 'abcd',
-//   minZoom: 0,
-//   maxZoom: 20,
-//   ext: 'png'
-// }).addTo(map);
-
 var MapBox = L.tileLayer('http://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
   attribution: 'Imagery from <a href="http://mapbox.com/about/maps/">MapBox</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   subdomains: 'abcd',
@@ -56,13 +44,3 @@ var locationSeventeen = omnivore.gpx('assets/data/activity_893736208.gpx').addTo
 var locationEighteen = omnivore.gpx('assets/data/activity_893736220.gpx').addTo(map);
 
 var locationNineteen = omnivore.gpx('assets/data/activity_893736236.gpx').addTo(map);
-
-
-
-// locationOne.on('ready', function() {
-//   locationOne.eachLayer(function(layer) {
-//     layer.bindPopup(layer.feature.properties.Date + ' ' + '<br>' + layer.feature.properties.Event + '<br>' + layer.feature.properties.Notes)
-//   })
-// }).addTo(map);
-
-
